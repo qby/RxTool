@@ -62,7 +62,7 @@ class ActivityCodeTool : ActivityBase() {
                 ll_code!!.visibility = View.VISIBLE
 
                 //二维码生成方式一  推荐此方法
-                RxQRCode.builder(str).backColor(-0x1).codeColor(-0x1000000).codeSide(600).codeLogo(resources.getDrawable(R.drawable.faviconhandsome)).codeBorder(1).into(iv_qr_code)
+                RxQRCode.builder(str).backColor(-0x1).codeColor(-0x1000000).codeSide(600).codeBorder(1).into(iv_qr_code)
 
                 //二维码生成方式二 默认宽和高都为800 背景为白色 二维码为黑色
                 // RxQRCode.createQRCode(str,iv_qr_code);
